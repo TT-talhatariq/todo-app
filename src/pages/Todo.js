@@ -42,7 +42,7 @@ const Todo = () => {
       <div className={styles.box}>
         <h1>List down your To-Do Items</h1>
         <div>
-          <p>Add your Items here ✏️</p>
+          <p>Add your Tasks here ✏️</p>
           <form className={styles.form} onSubmit={handleAddTask}>
             <input
               type="text"
