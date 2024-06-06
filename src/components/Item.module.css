@@ -1,0 +1,22 @@
+.items h5 {
+  font-size: 20px;
+}
+
+.items ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0;
+}
+.items li {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  background-color: #d2d2f5;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.items ul li:hover {
+  background-color: beige;
+}
